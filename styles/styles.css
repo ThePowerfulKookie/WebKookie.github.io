@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	Box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+	background-color: white;
+}
+
+.lmain {
+	padding: 00px 0px;
+}
+
+.content {
+	padding: 100px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky,
+.content {
+	padding-top: 6px;
+}
+
+.logo-container,
+.nav-links {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 60px;
+}
+.git {
+	flex: 1;
+	justify-content: flex-end;
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+}
+.youtube {
+	flex: 1;
+	justify-content: flex-end;
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+}
+.twitter {
+	flex: 1;
+	justify-content: flex-end;
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+}
+
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 90px;
+	align-items: center;
+	padding: 500px;
+}
+
+.cover img {
+	height: 60vh;
+}
+
+.box {
+	background-color: red;
+	justify-content: center;
+	flex: 1;
+	display: flex;
+	width: 800px;
+	height: 900px;
+	margin: 50px;
+	padding: 100px;
+}
+.plist {
+	align-items: center;
+}
